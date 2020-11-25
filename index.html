@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>click tracker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <fieldset id="main">
+      <h1>Click Tracker</h1>
+      <h2 id="clickcount">Click count: <span id="number">0</span></h2>
+      <button id="resetId" onClick=resetvalue();>Reset</button>
+      <button id="clickId" onClick=incvalue();>Click</button>
+    </fieldset>
+</body>
+<script>
+  var i=0;
+  function incvalue() {
+    i+=1;
+    document.getElementById("number").textContent=i;
+  }
+  function resetvalue() {
+    i=0;
+    document.getElementById("number").textContent=i;
+  }
+</script>
+</html>

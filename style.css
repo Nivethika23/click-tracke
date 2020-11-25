@@ -1,0 +1,34 @@
+body{
+  text-align: center;
+  margin: 20px 500px 20px 500px;
+  width: 400px;
+  outline-width: thin;
+  }
+h1{
+  font-size: 24px ;
+  font-weight: bold;
+  margin: 20px;
+  }
+#clickcount{
+  font-size: 18px;
+  font-weight:normal;
+}
+#resetId{
+  margin: 20px;
+  width:80px;
+  height:40px;
+  background-color: #d81010;
+  font-size: 14px ;
+  color: white;
+  font-weight: bold;
+  }
+#clickId{
+  margin: 20px;
+  width:80px;
+  height:40px;
+  background-color: #026f02;
+  font-size: 14px ;
+  color: white;
+  font-weight:bold;
+
+}
